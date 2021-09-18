@@ -1,0 +1,96 @@
+.testi{
+    padding:0;
+    margin: 50px 0 0 0;
+    box-sizing: border-box;
+    display: fex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testi .brand{
+    position: relative;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    font-size: 24px;
+
+}
+.texts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow:hidden;
+}
+.square{
+    position:relative;
+    width:380px;
+    height:380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square span:nth-child(1){
+    position:absolute;
+    top:0;
+    left:0px;
+    width:100%;
+    height: 100%;
+    border:2px solid #fff;
+    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+    transition: 0.5;
+    animation:animate 6s linear infinite; 
+}
+.square:hover span:nth-child(1){
+    border:none;
+}
+.square span:nth-child(2){
+    position:absolute;
+    top:0;
+    left:0px;
+    width:100%;
+    height: 100%;
+    border:2px solid #fff;
+;
+    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+    transition: 0.5;
+    animation:animate 6s linear infinite; 
+}
+.square:hover span:nth-child(2){
+    border:none;   
+}
+.square span:nth-child(3){
+    position:absolute;
+    top:0;
+    left:0px;
+    width:100%;
+    height: 100%;
+    border:2px solid #fff;
+    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+    transition: 0.5;
+    animation:animate 6s linear infinite; 
+}
+.square:hover span:nth-child(3){
+    border:none;
+}
+@keyframes animate{
+   0% {
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.content{
+    position:relative;
+    padding:40px 60px;
+    color:rgb(255, 254, 254);
+    text-align:center;
+    transition: 0.5;
+    z-index:1000;
+
+}
+.content .Link{
+    border-radius: 73% 27% 44% 56%/49% 44% 56% 51%;
+    text-decoration: underline;
+}

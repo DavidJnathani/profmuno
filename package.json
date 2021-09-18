@@ -1,0 +1,37 @@
+{
+  "name": "firstapp",
+  "main":"server.js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "serve":"firebase serve --only functions",
+    "start": "next start",
+    "export":"next export",
+    "deploy": "firebase deploy --only functions,hosting"
+ 
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@sendgrid/mail": "^7.4.6",
+    "animate.css": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "emailjs": "^3.6.0",
+    "emailjs-com": "^3.2.0",
+    "next": "10.2.0",
+    "next-images": "^1.8.1",
+    "next-seo": "^4.26.0",
+    "react": "17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.15.3",
+    "react-slick": "^0.28.1",
+    "sass": "^1.38.2",
+    "slick-carousel": "^1.8.1",
+    "sparkpost": "^2.1.4",
+    "yup": "^0.32.9"
+  }
+}

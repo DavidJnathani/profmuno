@@ -1,0 +1,14 @@
+.class{
+    background-color: rgb(12, 9, 9);
+    border:2px solid white;
+    color:white;
+    width:150px;
+    height:50px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.class:hover{
+    background-color: rgb(245, 238, 238);
+    border:2px solid black;
+    color:black;
+}

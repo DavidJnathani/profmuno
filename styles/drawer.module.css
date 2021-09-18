@@ -1,0 +1,43 @@
+.drawer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    background:  rgba(255,255,255,0.5);
+    box-shadow: 1px 8px 7px rgba(0,0,0,0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width: 70%;
+    max-width:400px;
+    z-index:100;
+    backdrop-filter: blur(6px);
+    transform:translateX(-100%);
+    transition: transform 0.3s ease-out;
+} 
+
+.draweropen{
+   transform:translateX(0);
+}
+.drawer ul{
+    list-style: none;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.drawer ul li{
+    cursor: pointer;
+    margin:0.5rem;
+    color:white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.drawer ul li:hover,
+.drawer ul li:active{
+    color:red;
+}
+@media(min-width:769px){
+   .drawer{
+       display:none
+   } 
+}

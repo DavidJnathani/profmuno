@@ -1,0 +1,134 @@
+.container{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:red;
+    height:100px;
+    display:flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    z-index: 1;
+}
+.brand{
+    margin-left: 0.5rem;
+    margin-right: 10%;
+        height:100%;
+}
+.navi{
+    position:relative;
+    
+}
+.navi ul{
+    margin: 0px;
+    padding:0px;
+    display: inline-block;
+}
+.navi > ul > li{
+    position:relative;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding:0 1rem ;
+    color:#F6EFEF;
+    text-decoration: none;
+    list-style: none;
+    float:left;
+    width: 150px;
+    height:50px;
+    line-height: 50px;
+    
+}
+.navi > ul > li:hover,.navi > ul > li .active{
+    border :2px solid black;
+    color:black;
+}
+.navi  ul  li .active{
+    border :2px solid black;
+    color:black;
+}
+.dropdown{
+    position: absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    padding:0;
+    
+
+}
+.dropdown li{
+    background-color:red; 
+    display:none;
+}
+.dropdown ul li:hover{
+    color:red;
+}
+ .navi ul li:hover > .dropdown li{
+    display: block;
+    
+}
+.navi li:hover >.dropdown{
+    perspective:1900px;
+}
+.navi li:hover >.dropdown li{
+    transform-origin: top center;
+    opacity:0;
+}
+.navi li:hover >.dropdown li:nth-child(1) {
+    animation:animate 300ms ease-in-out forwards;
+    animation-delay: -150ms;
+}
+.navi li:hover >.dropdown li:nth-child(2) {
+    animation:animate 300ms ease-in-out forwards;
+    animation-delay: 0ms;
+} 
+.navi li:hover >.dropdown li:nth-child(3) {
+    animation:animate 300ms ease-in-out forwards;
+    animation-delay: 150ms;
+}
+.navi li:hover >.dropdown li:nth-child(4) {
+    animation:animate 300ms ease-in-out forwards;
+    animation-delay: 300ms;
+}
+.navi li:hover >.dropdown li:nth-child(5) {
+    animation:animate 300ms ease-in-out forwards;
+    animation-delay: 450ms;
+}
+.navi li:hover >.dropdown li:nth-child(6) {
+    animation:animate 300ms ease-in-out forwards;
+    animation-delay: 500ms;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform:rotateX(-90deg)
+    }
+    50%{
+        transform:rotateX(20deg)
+    }
+    100%{
+        opacity: 1;
+        transform:rotateX(0deg)
+    }
+}
+
+
+@media(max-width:768px){
+    .navi{
+        display: none;
+    }
+    .brand{
+        position: relative;
+        
+        margin-left: 60%;
+    }
+}
+@media(min-width:769px){
+    .menu_icon{
+        display:none;
+    }
+    .brand{
+        margin-left:0;
+    }
+}
