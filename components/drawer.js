@@ -16,7 +16,9 @@ function Drawer(props) {
                         <a> About Us</a>
                         </Link>
                     </li>
-                <li>Services
+                <li><Link href="/services">
+                        <a>Services</a>
+                     </Link>
                     <ul className={style.list}>
                     <li><Link href="/healing">
                            <a> Healing</a>
