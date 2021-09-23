@@ -59,7 +59,6 @@ export default function Home(){
       </style>
         <Navbar drawerToggleClickHandler={drawerToggleClickHandler}/>
       <Drawer show={state.sideDrawerOpen}/> 
-       {backdrop}
        <Hero/> 
         <Jombo/>
        
