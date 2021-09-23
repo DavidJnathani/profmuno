@@ -51,7 +51,7 @@ function Aboutmain() {
                     </ul>
                     <p>Contact now for the best solutions</p>
                     <Link href="/contact">
-                        <a><Button/></a>
+                        <a><Button name="Contact Me"/></a>
                     </Link>
                 </div>
                 <div className={style.image1}>
