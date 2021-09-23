@@ -36,7 +36,7 @@ function  Others() {
                     </div>
             </div>
             <div className={style.serv}>
-                    <div className={style.imag2}>
+                    <div className={style.image2}>
                     <img src={image3} alt="corona virus"/>
                     </div>
                     <div class={style.content}>
