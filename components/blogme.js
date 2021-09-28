@@ -73,7 +73,7 @@ function Blogme() {
 
             <div className={style.blog}>
             <Blogs title="Corona virus Cure & Treatment" 
-            content="I Have crafted the best and unique medicines and solutions specially to help fix all issues around this epidemic decease and hence here comes your chance to engage my services for Corona virus Cure & Treatment In South Africa and have all your issues solved. iM HERE TO ASSIST YOU MEET ALL YOUR NEEDS WITH EASE
+            content="I Have crafted the best and unique medicines and solutions specially to help fix all issues around this epidemic decease and hence here comes your chance to engage my services for Corona virus Cure & Treatment In South Africa and have all your issues solved. Am here to assist you and meet all your needs with ease.
 
             No matter the geographical location nor situation you may be in, here comes your chance to make it happen your way. Do not hesitate to contact for Corona virus Cure & Treatment In South Africa here, i have helped many people and hence here comes your chance to make it happen your way as soon as possible.
             
