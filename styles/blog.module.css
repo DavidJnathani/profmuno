@@ -37,6 +37,18 @@ height: 250px;
             border: 2px solid rgb(105, 32, 32);
             background-color: rgb(139, 11, 11);
         }
+        .blog .content p{
+            width:80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .blog .content {
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 @media(max-width:777px){
     .blog{
@@ -44,12 +56,24 @@ height: 250px;
         position:relative;
         margin-top: 40px;
         width:400px;
-        height:700px;
+        height:800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         border: 2px solid rgb(105, 32, 32);
         background-color: rgb(139, 11, 11);
+    }
+     .blog .content {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog .content p{
+        width:80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
 }
