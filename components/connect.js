@@ -79,9 +79,9 @@ function Connect() {
                             </div>
                             <div className={style.text}>
                                 <h3> Address</h3>
-                                <p>P.O. Box 14136<br/><strong>Main Branch: Lusaka,Kyongwe</strong></p>
+                                <p>P.O. Box 14136<br/><strong>Main Branch: Lusaka,Chongwe</strong></p>
                                 <p><strong>Uganda</strong>,
-                                    <strong>Zimbia</strong>.</p>
+                                    <strong>Zambia</strong>.</p>
                             </div>
                             </div>
                             <div className={style.box}>
