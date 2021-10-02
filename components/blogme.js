@@ -89,9 +89,9 @@ function Blogme() {
             </div>
             <div className={style.blog}>
             <Blogs title="Native Traditional Healers Mpumalanga Nelspruit" 
-            content="Native Traditional Healers Mpumalanga Nelspruit, You have come to the most Influential & Unique Doctor Adam Nyunja A herbalist with Super Natural Powers from the mountains of Africa and Strong natural herbs. Due to high demand by Clients, Doctor Adam Nyunja is now online to help people from all over the world. CALL FOR HELP.
+            content="Native Traditional Healers Mpumalanga Nelspruit, You have come to the most influential & unique Prof. Munno a herbalist with Super Natural Powers from the mountains of Africa and Strong natural herbs. Due to high demand by Clients, Prof. Munno is now online to help people from all over the world. Call for help.
 
-            Native traditional healing is the best way of healing because Native Healers have got a God given gift of healing.Doctor Adam Nyunja has got very powerful which craft spells specifically made to free facing any form of witchcraft or bad evils from there Emimies. Are people threatening to bewitch you contact doctor Adam Nyunja for the best witchcraft protection spells."
+            Native traditional healing is the best way of healing because Native Healers have got a God given gift of healing.Prof. Munno has got very powerful which craft spells specifically made to free facing any form of witchcraft or bad evils from there Emimies. Are people threatening to bewitch you contact Prof. Munno for the best witchcraft protection spells."
                 image={heal} />
                 <Blogs title="African Voodoo & Witchcraft Spells" 
             content="African Voodoo & Witchcraft Spells at your reach, Are you interested in the best and unique solutions around the whole world? You have come to the right place to make it happen your way as soon as possible, so many people around the whole world do as me how i get all the powers t make it happen their way but one thing we must all know is that we are all ancestral guided as long as you’re a spiritualist like me.
