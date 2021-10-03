@@ -71,7 +71,7 @@ function Blogme() {
                 image={sabbo} />
             </div>
 
-            <div className={style.blog}>
+            <div className={style.blog1}>
             <Blogs title="Corona virus Cure & Treatment" 
             content="I Have crafted the best and unique medicines and solutions specially to help fix all issues around this epidemic decease and hence here comes your chance to engage my services for Corona virus Cure & Treatment In South Africa and have all your issues solved. Am here to assist you and meet all your needs with ease.
 
@@ -87,7 +87,7 @@ function Blogme() {
             Have you been disappointed or lost hope due to your bed experience with your previous so called Sangomas? do not hesitate to contact us for the best services ever. here you have come to the most wanted and respected The Great African Traditional Healer who will make sure that all your problems are solved."
                 image={magic} />
             </div>
-            <div className={style.blog}>
+            <div className={style.blog2}>
             <Blogs title="Native Traditional Healers Mpumalanga Nelspruit" 
             content="Native Traditional Healers Mpumalanga Nelspruit, You have come to the most influential & unique Prof. Munno a herbalist with Super Natural Powers from the mountains of Africa and Strong natural herbs. Due to high demand by Clients, Prof. Munno is now online to help people from all over the world. Call for help.
 
