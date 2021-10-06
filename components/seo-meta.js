@@ -2,6 +2,7 @@ import Head from 'next/head'
 const Meta = (props) => (      
 <Head>
 <title>Professor Munno Traditiion Healer</title>
+  <meta http-equiv="Content-Type" content="application/xml; charset=utf-8" />
 <meta name="description" content="Professor Munno Traditional Healer best in witchcraft spells and healing Call: 0200-991-807 " />
 <meta name="robots" content="noodp"/>
 <meta property="og:locale" content="en_US" />
