@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 export default function Home(){
   let settings={
@@ -70,7 +71,7 @@ export default function Home(){
           </div>
          
        <Testimonials/>
-     
+      <Watsap/>
        <Footer/>
     </div>
   )
