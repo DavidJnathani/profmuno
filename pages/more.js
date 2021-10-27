@@ -9,6 +9,7 @@ import Testimonials from '../components/testimonials'
 import Banner from '../components/banner'
 import images from '../images/fog.jpg'
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 function More() {
 
@@ -50,6 +51,7 @@ function More() {
       <Banner page="Other Services" image={images}/>
      <Others/>
      <Testimonials/>
+          <Watsap/>
        <Footer/>
             
         </div>
