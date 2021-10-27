@@ -9,6 +9,7 @@ import Testimonials from '../components/testimonials'
 import Banner from '../components/banner'
 import images from '../images/firepalce.jpg'
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 function Protect() {
 
@@ -50,6 +51,7 @@ function Protect() {
       <Banner page='Protection' image={images}/>
         <ProtectMe/>
         <Testimonials/>
+          <Watsap/>
        <Footer/>
             
         </div>
