@@ -8,6 +8,7 @@ import Service from '../components/service'
 import images from '../images/signs.jpg'
 import Banner from '../components/banner'
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 function Services() {
 
@@ -48,6 +49,7 @@ function Services() {
       <Drawer show={state.sideDrawerOpen}/> 
       <Banner page="Services" image={images}/>
       <Service/>
+          <Watsap/>
        <Footer/>
             
         </div>
