@@ -115,6 +115,10 @@
      padding: 10px;
      font-size: 18px;
  }
+.contactForm .item input[type='submit']:hover{
+     background-color: rgb(61, 60, 60);
+     color:#fff;
+ }
   @media(max-width:991px){
       .contact{
           padding:50px;
