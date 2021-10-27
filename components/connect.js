@@ -22,6 +22,7 @@ function Connect() {
         'user_GIHSicy0z9EdrD6ZEBnxe'
         ).then(res=>{
             console.log(res)
+          alert("message sent")
         }).catch(err=>console.log(err));  
     }
 
