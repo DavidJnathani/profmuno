@@ -9,6 +9,7 @@ import Testimonials from '../components/testimonials'
 import Banner from '../components/banner'
 import images from  '../images/busi.jpg'
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 function Business() {
 
@@ -50,6 +51,7 @@ function Business() {
       <Banner page="Business Solution" image={images}/> 
       <Bus/>
       <Testimonials/>
+          <Watsap/>
        <Footer/>
             
         </div>
