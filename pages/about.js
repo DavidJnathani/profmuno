@@ -8,6 +8,7 @@ import Aboutmain from '../components/aboutmain'
 import Banner from '../components/banner'
 import images from '../images/mat.jpg'
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 function About() {
 
@@ -48,6 +49,7 @@ function About() {
       <Drawer show={state.sideDrawerOpen}/>
       <Banner page="About Us" image={images}/> 
       <Aboutmain />
+           <Watsap/>
        <Footer/>
             
         </div>
