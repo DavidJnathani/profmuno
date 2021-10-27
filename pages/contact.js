@@ -8,7 +8,7 @@ import Connect from '../components/connect'
 import Banner from '../components/banner'
 import images from '../images/medic.jpg'
 import Meta from '../components/seo-meta'
-
+import Watsap from '../components/watsap'
 function Contact() {
 
     const [state,setState]=useState({
@@ -48,6 +48,7 @@ function Contact() {
       <Drawer show={state.sideDrawerOpen}/> 
       <Banner image={images} page='Contact Us' />
       <Connect/>
+          <Watsap/>
        <Footer/>
             
         </div>
