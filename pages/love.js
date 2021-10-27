@@ -9,7 +9,7 @@ import Testimonials from '../components/testimonials'
 import images from '../images/love.jpg'
 import Banner from '../components/banner'
 import Meta from '../components/seo-meta'
-
+import Watsap from '../components/watsap'
 
 function Love() {
 
@@ -52,7 +52,7 @@ function Love() {
      <LoveSpell/>
      <Testimonials/>
        <Footer/>
-            
+        <Watsap/>    
         </div>
     )
 }
