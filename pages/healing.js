@@ -10,6 +10,7 @@ import Testimonials from '../components/testimonials'
 import Banner from '../components/banner'
 import images from '../images/charting.jpg'
 import Meta from '../components/seo-meta'
+import Watsap from '../components/watsap'
 
 function Healing() {
 
@@ -51,6 +52,7 @@ function Healing() {
       <Banner page="Healing Solution" image={images}/>
       <HealPower/>
       <Testimonials/>
+           <Watsap/>
        <Footer/>
             
         </div>
