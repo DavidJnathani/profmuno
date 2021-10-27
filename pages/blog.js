@@ -8,7 +8,7 @@ import Blogme from '../components/blogme'
 import Banner from '../components/banner'
 import images from '../images/signs.jpg'
 import Meta from '../components/seo-meta'
-
+import Watsap from '../components/watsap'
 
 function About() {
 
@@ -49,6 +49,7 @@ function About() {
       <Drawer show={state.sideDrawerOpen}/> 
       <Banner page='Our Blog'image={images}/>
       <Blogme/>
+           <Watsap/>
        <Footer/>
             
         </div>
